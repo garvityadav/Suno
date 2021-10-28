@@ -1,0 +1,123 @@
+/* Navigation  */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul{
+    flex-wrap: wrap;
+}
+#navbar ul li a{
+    font-size: 1rem;
+}
+
+/* Home */
+
+#home{
+    padding: 0px; 
+    height: 559px;  
+}
+#home p {
+    font-size: 1rem;
+    padding: 0px 0px;
+}
+
+.btn {
+    font-size: 0.7rem;
+    width: 100px
+}
+
+.btn:hover {
+    font-size: 1rem;
+    width: 170px
+}
+
+/* Services-container */
+
+#services {
+        flex-direction: column;
+    /* overflow: hidden; */
+}
+#services-container{
+    height: 900px;
+}
+#services-container::before{
+    height: 900px;
+}
+
+#services img{
+    height: 80px;
+    width: 80px;
+}
+#services .box{
+    margin:2px;
+    padding:0px;
+    height: 150px;
+    width: 150px;
+}
+.box h2{
+    font-size: 1rem;
+    display:none;
+}
+.box p{
+    font-size: .5rem;
+    display: none;
+}
+#services{
+    padding: 10px 0px;
+    margin: 10px;
+}
+#services .box:hover{
+    width: 300px;
+    height:350px;
+    
+}
+.box:hover h2{
+    font-size: 1.1rem;
+    display: block;
+}
+.box:hover p{
+    font-size: 0.8rem;
+    display: block;
+}
+
+
+
+/* Client-corner */
+#client{
+    flex-wrap: wrap;
+}
+#client img{
+    width:auto;
+    height: 40px;
+}
+.client-item{
+    padding: 0px 5px;
+    margin:0px;
+}
+
+/* #client{
+    
+} */
+
+/* Contacts */
+
+/* Footer */
+#copyright{
+    font-size: 0.6rem;
+}
+
+/* Utility Class */
+
+.h-primary {
+    font-size: 2.4rem;
+}
+.h-secondary{
+    font-size: 2rem;
+}
+
+/* ADDITIONAL MEDIA QUERY */
+@media  screen and (max-width:560px){
+    #home::before{
+        height: 677px;
+    }
+   
+}
